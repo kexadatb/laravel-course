@@ -5,7 +5,7 @@ namespace App\Model;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
-{
+{/*
     public $id;
     public $title;
     public $text;
@@ -32,5 +32,5 @@ class Post extends Model
 
     	$this->comments = array_merge( $this->comments, $comments);
 
-    }
+    } */
 }
